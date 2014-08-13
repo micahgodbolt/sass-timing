@@ -1,6 +1,6 @@
 require 'compass'
 
-Compass::Frameworks.register("sassy-math", :path => "#{File.dirname(__FILE__)}/..")
+Compass::Frameworks.register("sass-timing", :path => "#{File.dirname(__FILE__)}/..")
 
 module Sass::Script::Functions
   def timestamp()
@@ -10,7 +10,7 @@ end
 
 module SassTiming
 
-  VERSION = "1.0"
+  VERSION = "1.0.2"
   DATE = "2014-08-13"
 
 end
