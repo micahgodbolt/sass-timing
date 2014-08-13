@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{sass-timing}
-  s.version = "1.0.2"
+  s.version = "1.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.5")
   s.authors = ["Micah Godbolt"]
