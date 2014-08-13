@@ -1,9 +1,9 @@
 sass-timing
 ===========
 
-gem install sass-timing
+`gem install sass-timing`
 
-add require "sass-timing" to config.rb
+add `require "sass-timing"` to config.rb
 
 `timing_total()` prints the current total time of compile
 
