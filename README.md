@@ -5,10 +5,8 @@ gem install sass-timing
 
 add require "sass-timing" to config.rb
 
-place use the `timestamp()` function anywhere in your code to return the current time.
+`timing_total()` prints the current total time of compile
 
-```
-/*!
- * CSS Compiled on: #{timestamp()}
- */
-```
+`timing_interval()` prints time ellapsed since last interval was checked
+
+Thanks to Cisso for the ruby wizardry found in [this gist](https://gist.github.com/cisso/d032735f5719e43cc396)
